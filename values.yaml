@@ -291,7 +291,7 @@ controller:
         allowsSignup: false
         enableCaptcha: false
         users:
-        - user_id: "${chart-admin-username}"
+          id: "${chart-admin-username}"
           name: "Jenkins Admin"
           password: "${chart-admin-password}"
     # Ignored if authorizationStrategy is defined in controller.JCasC.configScripts
